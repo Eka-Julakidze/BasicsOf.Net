@@ -1,0 +1,19 @@
+﻿@page "{accountId:int}"
+@model Basics.Pages.Accounts.DetailModel
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<h2>@Model.Account.Name</h2>
+
+<div>
+    Id: @Model.Account.Id
+</div>
+<div>
+    Age: @Model.Account.Age
+</div>
+<div>
+    Citizenship: @Model.Account.Citizenship
+</div>
+
+<a asp-page="./List" class="btn btn-outline-success">Back to Accounts</a>

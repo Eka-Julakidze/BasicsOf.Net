@@ -1,0 +1,47 @@
+﻿@page
+@model Basics.Pages.Accounts.ListModel
+@{
+    ViewData["Title"] = "Accounts";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form method="get">
+    <div class="form-group">
+        <div class="input-group">
+            <input type="search" class="form-control"
+                  asp-for="SearchTerm" />
+            <span class="input-group-append">
+                <button class="btn btn-primary">
+                    Search
+                </button>
+            </span>
+        </div>
+    </div>
+</form>
+
+<table class="table">
+    <tr class="badge-info">
+        <th>Name</th>
+        <th>Lastname</th>
+        <th>Age</th>
+        <th>Citizenship</th>
+        <th></th>
+    </tr>
+    @foreach (var account in Model.Accounts)
+    {
+    <tr>
+        <td>@account.Name</td>
+        <td>@account.Lastname</td>
+        <td>@account.Age</td>
+        <td>@account.Citizenship</td>
+        <td>
+            <a class="btn btn-outline-primary"
+               asp-page="./Detail" 
+               asp-route-accountId="@account.Id">
+            Info
+            </a>
+        </td>
+    </tr>
+    }
+</table>

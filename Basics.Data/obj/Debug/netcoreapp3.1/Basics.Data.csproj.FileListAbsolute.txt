@@ -1,0 +1,12 @@
+C:\Users\admin\source\repos\Basics\Basics.Data\bin\Debug\netcoreapp3.1\Basics.Data.deps.json
+C:\Users\admin\source\repos\Basics\Basics.Data\bin\Debug\netcoreapp3.1\Basics.Data.dll
+C:\Users\admin\source\repos\Basics\Basics.Data\bin\Debug\netcoreapp3.1\Basics.Data.pdb
+C:\Users\admin\source\repos\Basics\Basics.Data\bin\Debug\netcoreapp3.1\Basics.Core.dll
+C:\Users\admin\source\repos\Basics\Basics.Data\bin\Debug\netcoreapp3.1\Basics.Core.pdb
+C:\Users\admin\source\repos\Basics\Basics.Data\obj\Debug\netcoreapp3.1\Basics.Data.csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\Basics\Basics.Data\obj\Debug\netcoreapp3.1\Basics.Data.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\Basics\Basics.Data\obj\Debug\netcoreapp3.1\Basics.Data.AssemblyInfo.cs
+C:\Users\admin\source\repos\Basics\Basics.Data\obj\Debug\netcoreapp3.1\Basics.Data.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\Basics\Basics.Data\obj\Debug\netcoreapp3.1\Basics.Data.csproj.CopyComplete
+C:\Users\admin\source\repos\Basics\Basics.Data\obj\Debug\netcoreapp3.1\Basics.Data.dll
+C:\Users\admin\source\repos\Basics\Basics.Data\obj\Debug\netcoreapp3.1\Basics.Data.pdb
