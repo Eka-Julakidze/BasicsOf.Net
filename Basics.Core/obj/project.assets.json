@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\admin\\.nuget\\packages\\": {}
+    "C:\\Users\\ejulakidze\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\source\\repos\\Basics\\Basics.Core\\Basics.Core.csproj",
+      "projectUniqueName": "C:\\Users\\ejulakidze\\Source\\Repos\\BasicsOf.Net\\Basics.Core\\Basics.Core.csproj",
       "projectName": "Basics.Core",
-      "projectPath": "C:\\Users\\admin\\source\\repos\\Basics\\Basics.Core\\Basics.Core.csproj",
-      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\source\\repos\\Basics\\Basics.Core\\obj\\",
+      "projectPath": "C:\\Users\\ejulakidze\\Source\\Repos\\BasicsOf.Net\\Basics.Core\\Basics.Core.csproj",
+      "packagesPath": "C:\\Users\\ejulakidze\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ejulakidze\\Source\\Repos\\BasicsOf.Net\\Basics.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ejulakidze\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

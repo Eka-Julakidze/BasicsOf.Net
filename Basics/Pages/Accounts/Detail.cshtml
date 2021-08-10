@@ -4,7 +4,11 @@
     ViewData["Title"] = "Detail";
 }
 
-<h2>@Model.Account.Name</h2>
+<h2>Account Info: @Model.Account.Name @Model.Account.Lastname</h2>
+@if (Model.Message != null) 
+{
+    <div class="alert alert-info">@Model.Message</div>
+}
 
 <div>
     Id: @Model.Account.Id

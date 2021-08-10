@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basics", "Basics\Basics.csproj", "{195F7F09-8045-46AF-8E0D-A0387F6E589E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basics", "Basics\Basics.csproj", "{195F7F09-8045-46AF-8E0D-A0387F6E589E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basics.Core", "Basics.Core\Basics.Core.csproj", "{F3ECFAC5-C52E-4CEC-8697-BE3A11A7BEE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basics.Core", "Basics.Core\Basics.Core.csproj", "{F3ECFAC5-C52E-4CEC-8697-BE3A11A7BEE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basics.Data", "Basics.Data\Basics.Data.csproj", "{660CB316-5E45-49DE-936B-9CA0C263B2C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basics.Data", "Basics.Data\Basics.Data.csproj", "{660CB316-5E45-49DE-936B-9CA0C263B2C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

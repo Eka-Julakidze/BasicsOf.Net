@@ -10,6 +10,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace Basics
 {
@@ -25,7 +26,11 @@ namespace Basics
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddSingleton<IAccountData, InMemoryAccountData>();
+            services.AddDbContextPool<BasicsDbContext>(options => {
+                options.UseSqlServer(Configuration.GetConnectionString("BasicsDb"));
+            });
+
+            services.AddScoped<IAccountData, SqlAccountData>();
             services.AddRazorPages();
         }
 

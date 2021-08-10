@@ -18,6 +18,8 @@ namespace Basics.Pages.Accounts
             this.accountData = accountData;
         }
         public Account Account { get; set; }
+        [TempData]
+        public string Message { get; set; }
 
         public IActionResult OnGet(int accountId)
         {

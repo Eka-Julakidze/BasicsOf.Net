@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\source\\repos\\Basics\\Basics.Data\\Basics.Data.csproj": {}
+    "C:\\Users\\ejulakidze\\Source\\Repos\\BasicsOf.Net\\Basics.Data\\Basics.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\source\\repos\\Basics\\Basics.Core\\Basics.Core.csproj": {
+    "C:\\Users\\ejulakidze\\Source\\Repos\\BasicsOf.Net\\Basics.Core\\Basics.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\source\\repos\\Basics\\Basics.Core\\Basics.Core.csproj",
+        "projectUniqueName": "C:\\Users\\ejulakidze\\Source\\Repos\\BasicsOf.Net\\Basics.Core\\Basics.Core.csproj",
         "projectName": "Basics.Core",
-        "projectPath": "C:\\Users\\admin\\source\\repos\\Basics\\Basics.Core\\Basics.Core.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\source\\repos\\Basics\\Basics.Core\\obj\\",
+        "projectPath": "C:\\Users\\ejulakidze\\Source\\Repos\\BasicsOf.Net\\Basics.Core\\Basics.Core.csproj",
+        "packagesPath": "C:\\Users\\ejulakidze\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ejulakidze\\Source\\Repos\\BasicsOf.Net\\Basics.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ejulakidze\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,17 +58,17 @@
         }
       }
     },
-    "C:\\Users\\admin\\source\\repos\\Basics\\Basics.Data\\Basics.Data.csproj": {
+    "C:\\Users\\ejulakidze\\Source\\Repos\\BasicsOf.Net\\Basics.Data\\Basics.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\source\\repos\\Basics\\Basics.Data\\Basics.Data.csproj",
+        "projectUniqueName": "C:\\Users\\ejulakidze\\Source\\Repos\\BasicsOf.Net\\Basics.Data\\Basics.Data.csproj",
         "projectName": "Basics.Data",
-        "projectPath": "C:\\Users\\admin\\source\\repos\\Basics\\Basics.Data\\Basics.Data.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\source\\repos\\Basics\\Basics.Data\\obj\\",
+        "projectPath": "C:\\Users\\ejulakidze\\Source\\Repos\\BasicsOf.Net\\Basics.Data\\Basics.Data.csproj",
+        "packagesPath": "C:\\Users\\ejulakidze\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ejulakidze\\Source\\Repos\\BasicsOf.Net\\Basics.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ejulakidze\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,8 +82,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\admin\\source\\repos\\Basics\\Basics.Core\\Basics.Core.csproj": {
-                "projectPath": "C:\\Users\\admin\\source\\repos\\Basics\\Basics.Core\\Basics.Core.csproj"
+              "C:\\Users\\ejulakidze\\Source\\Repos\\BasicsOf.Net\\Basics.Core\\Basics.Core.csproj": {
+                "projectPath": "C:\\Users\\ejulakidze\\Source\\Repos\\BasicsOf.Net\\Basics.Core\\Basics.Core.csproj"
               }
             }
           }
@@ -97,6 +97,21 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

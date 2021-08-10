@@ -26,7 +26,7 @@
         <th>Lastname</th>
         <th>Age</th>
         <th>Citizenship</th>
-        <th></th>
+        <th colspan="3">ACTIONS</th>
     </tr>
     @foreach (var account in Model.Accounts)
     {
@@ -36,12 +36,20 @@
         <td>@account.Age</td>
         <td>@account.Citizenship</td>
         <td>
-            <a class="btn btn-outline-primary"
-               asp-page="./Detail" 
+            <a class="btn btn-outline-info"
+               asp-page="./Detail"
                asp-route-accountId="@account.Id">
-            Info
+                See Info
+            </a>
+            <a class="btn btn-outline-primary"
+               asp-page="./Edit" asp-route-accountId="@account.Id">  
+                Edit
             </a>
         </td>
     </tr>
     }
 </table>
+
+<a class="btn btn-primary" asp-page="./Edit">
+    Add New
+</a>
